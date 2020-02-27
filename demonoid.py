@@ -43,7 +43,7 @@ from helpers import download_file, retrieve_url
 
 class demonoid(object):
     """ Search engine class """
-    url = "https://www.demonoid.pw"
+    url = "https://www.demonoid.is"
     name = "Demonoid"
     supported_categories = {'all': '0',
                             'music': '2',
@@ -152,7 +152,7 @@ class demonoid(object):
                     'engine_url': self.url,
                     'link': self.url,
                     'desc_link': query,
-                    'name': 'It seems demonoid.pw is private at the moment. / ' + what
+                    'name': 'It seems demonoid.is is private at the moment. / ' + what
                 })
             return
         list_results = add_res_list.findall(data)
